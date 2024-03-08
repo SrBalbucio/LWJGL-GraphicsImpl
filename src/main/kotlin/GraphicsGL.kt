@@ -27,7 +27,7 @@ class GraphicsGL : Graphics2D() {
     }
 
     override fun create(): Graphics {
-        TODO("Not yet implemented")
+        return GraphicsGL();
     }
 
     override fun translate(x: Int, y: Int) {
